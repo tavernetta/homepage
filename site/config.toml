@@ -7,19 +7,19 @@ title = "Tavernetta Italiana"
 
 [[menu.main]]
     name = "Essen"
-    url  = "/food"
+    url  = "/essen"
     weight = 1
 [[menu.main]]
     name = "Getränke"
-    url  = "/drinks"
+    url  = "/getraenke"
     weight = 2
 [[menu.main]]
     name = "Über uns"
     url  = "/ueber_uns"
     weight = 3
 [[menu.main]]
-    name = "Gallery"
-    url  = "/gallery"
+    name = "Gallerie"
+    url  = "/gallerie"
     weight = 4
 [[menu.main]]
      name = "Bei uns reservieren"
