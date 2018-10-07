@@ -1,27 +1,27 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Tasty Licks"
+languageCode = "de"
+title = "Tavernetta Italiana"
 
 [params]
-  description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  description = "Ihre italienische Tavernetta in München"
 
 [[menu.main]]
-    name = "Food"
-    url  = "/food"
+    name = "Essen"
+    url  = "/essen"
     weight = 1
 [[menu.main]]
-    name = "Drinks"
-    url  = "/drinks"
+    name = "Getränke"
+    url  = "/getraenke"
     weight = 2
 [[menu.main]]
-    name = "About"
-    url  = "/about"
+    name = "Über uns"
+    url  = "/ueber_uns"
     weight = 3
 [[menu.main]]
     name = "Gallery"
     url  = "/gallery"
     weight = 4
 [[menu.main]]
-     name = "Make A Reservation"
-     url  = "/contact"
+     name = "Bei uns reservieren"
+     url  = "/reservierung"
      weight = 5
