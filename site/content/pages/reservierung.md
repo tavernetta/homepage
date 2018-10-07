@@ -11,6 +11,6 @@ Lassen Sie uns wissen wann Sie bei uns einen Tisch reservieren möchten. Innerha
 <form name="reservierung" netlify>
   <input type="text" placeholder="Ihr Name" name="name">
   <input type="email" placeholder="Ihre Email" name="email">
-  <textarea name="message" placeholder="Wann möchten Sie einen Tisch reservieren?"></textarea>
+  <textarea name="message" placeholder="Wann möchten Sie einen Tisch bei uns reservieren?"></textarea>
   <button>Senden</button>
 </form>
