@@ -1,5 +1,5 @@
 ---
 title: Schweinebraten
-image: /img/gallery/photo2.jpg
+image: /img/gallerie/photo2.jpg
 ---
 

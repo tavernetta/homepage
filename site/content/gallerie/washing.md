@@ -1,5 +1,5 @@
 ---
 title: Abendmenü
-image: /img/gallery/photo0.jpg
+image: /img/gallerie/photo0.jpg
 ---
 

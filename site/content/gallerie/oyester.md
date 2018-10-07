@@ -1,5 +1,5 @@
 ---
 title: Unsere Küche
-image: /img/gallery/photo4.jpg
+image: /img/gallerie/photo4.jpg
 ---
 

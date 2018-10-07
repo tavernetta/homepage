@@ -1,5 +1,5 @@
 ---
 title: Unser Vorbereitungsraum
-image: /img/gallery/asdf.jpg
+image: /img/gallerie/asdf.jpg
 ---
 

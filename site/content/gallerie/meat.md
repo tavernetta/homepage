@@ -1,5 +1,5 @@
 ---
 title: Nur frische Zutaten
-image: /img/gallery/photo3.jpg
+image: /img/gallerie/photo3.jpg
 ---
 

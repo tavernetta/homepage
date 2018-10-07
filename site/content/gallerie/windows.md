@@ -1,5 +1,5 @@
 ---
 title: Steak
-image: /img/gallery/photo1.jpg
+image: /img/gallerie/photo1.jpg
 ---
 
