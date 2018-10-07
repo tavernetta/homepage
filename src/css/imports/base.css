@@ -267,7 +267,7 @@ tbody tr:nth-child(odd) {
   }
   li {
     small {
-      font-size: 65%;
+      font-size: 75%;
       color: #999;
     }
     a:hover {
