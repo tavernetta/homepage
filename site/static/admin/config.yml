@@ -14,7 +14,7 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Name des Gerichts", name: "title", widget: "string"}
       - {label: "Unterstützte Essen", name: "categories", widget: "list", default: ["mittags", "abends"]}
-      - {label: "Zutaten/Beschreigung", name: "description", widget: "text"}
+      - {label: "Zutaten/Beschreibung", name: "description", widget: "text"}
       - {label: "Art des Gerichts", name: "type", widget: "string", default: "warm"}
       - {label: "Preis", name: "price", widget: "string"}
   - name: getraenke
@@ -24,7 +24,7 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Name des Getränks", name: "title", widget: "string"}
       - {label: "Hersteller", name: "categories", widget: "hidden", default: ["getraenk"]}
-      - {label: "Zutaten/Beschreigung", name: "description", widget: "text"}
+      - {label: "Zutaten/Beschreibung", name: "description", widget: "text"}
       - {label: "Art des Getränks", name: "type", widget: "string", default: "bier"}
       - {label: "Preis", name: "price", widget: "string"}
   - name: gallerie

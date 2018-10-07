@@ -1,4 +1,10 @@
-{{ partial "header" . }}
+{{ if eq .Section "essen" }}
+  {{ partial "header_e" . }}
+{{ else if eq .Section "getraenke" }}
+  {{ partial "header_g" . }}
+{{ else }}
+  {{ partial "header" . }}
+{{ end }}
 
 <div class="content container {{ .Title }} {{ .Section | urlize }}">
   <h1>{{ .Section }}</h1>
