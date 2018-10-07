@@ -1,9 +1,9 @@
 import CMS from "netlify-cms";
-import FoodPreview from "./cms/food-preview";
-import DrinkPreview from "./cms/drink-preview";
-import GalleryPreview from "./cms/gallery-preview";
+import FoodPreview from "./cms/essen-vorschau";
+import DrinkPreview from "./cms/getraenke-vorschau";
+import GalleryPreview from "./cms/gallery-vorschau";
 
 CMS.registerPreviewStyle("../css/main.css");
-CMS.registerPreviewTemplate("food", FoodPreview);
-CMS.registerPreviewTemplate("drinks", DrinkPreview);
+CMS.registerPreviewTemplate("essen", FoodPreview);
+CMS.registerPreviewTemplate("getraenke", DrinkPreview);
 CMS.registerPreviewTemplate("gallery", GalleryPreview);

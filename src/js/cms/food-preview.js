@@ -11,7 +11,7 @@ export default class FoodPreview extends Component {
     const data = entry.get("data") ? entry.get("data").toJS() : {};
 
     return <section className="content" style={{padding: 16}}>
-      <h1>Food</h1>
+      <h1>Essen</h1>
       <h2>{ data.categories.map((category) => <em>{ category }</em>)}</h2>
       <hr/>
       <h3>{ data.type }</h3>
