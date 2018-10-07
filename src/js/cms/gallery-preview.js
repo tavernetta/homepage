@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import format from "date-fns/format";
 
 function urlize(value) {
-  return value.toLowerCase().replace(/\s/g, "-").replace(/-+/, "-");
+  return value.toLowerCase().replace(//g, "-").replace(/-+/, "-");
 }
 
 export default class GalleryPreview extends Component {
