@@ -11,7 +11,7 @@ export default class DrinkPreview extends Component {
     const data = entry.get("data") ? entry.get("data").toJS() : {};
 
     return <section className="content" style={{padding: 16}}>
-      <h1>Drinks</h1>
+      <h1>Getraenke</h1>
       <h2><em>{ data.type }</em></h2>
       <hr/>
       <ul>
