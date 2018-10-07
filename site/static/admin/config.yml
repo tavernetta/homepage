@@ -3,33 +3,33 @@ backend:
   repo: tavernetta/homepage
   branch: master
 
-media_folder: "src/img/gallery" # Folder where user uploaded files should go
-public_folder: "img/gallery"
+media_folder: "src/img/gallerie" # Folder where user uploaded files should go
+public_folder: "img/gallerie"
 
 collections:
-  - name: food
-    label: "Food Item" # Used in the UI, ie.: "New Post"
-    folder: "site/content/food" # The path to the folder where the documents are stored
+  - name: essen
+    label: "Essen hinzufügen" # Used in the UI, ie.: "Neu hinzufügen"
+    folder: "site/content/essen" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Name of Item", name: "title", widget: "string"}
-      - {label: "Supported Meals", name: "categories", widget: "list", default: ["lunch", "dinner"]}
-      - {label: "Ingredients/Description", name: "description", widget: "text"}
-      - {label: "Type of Food", name: "type", widget: "string", default: "raw bar"}
-      - {label: "Price", name: "price", widget: "string"}
-  - name: drinks
-    label: "Drink Item" # Used in the UI, ie.: "New Post"
-    folder: "site/content/drinks" # The path to the folder where the documents are stored
+      - {label: "Name des Gerichts", name: "title", widget: "string"}
+      - {label: "Unterstützte Essen", name: "categories", widget: "list", default: ["mittags", "abends"]}
+      - {label: "Zutaten/Beschreigung", name: "description", widget: "text"}
+      - {label: "Art des Gerichts", name: "type", widget: "string", default: "warm"}
+      - {label: "Preis", name: "price", widget: "string"}
+  - name: getraenke
+    label: "Getränk hinzufügen" # Used in the UI, ie.: "Neu hinzufügen"
+    folder: "site/content/getraenke" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Name of Drink", name: "title", widget: "string"}
-      - {label: "Drink Marker", name: "categories", widget: "hidden", default: ["drinks"]}
-      - {label: "Ingredients/Description", name: "description", widget: "text"}
-      - {label: "Type of Drink", name: "type", widget: "string", default: "beer"}
-      - {label: "Price", name: "price", widget: "string"}
-  - name: gallery
-    label: "Gallery Image" # Used in the UI, ie.: "New Post"
-    folder: "site/content/gallery" # The path to the folder where the documents are stored
+      - {label: "Name des Getränks", name: "title", widget: "string"}
+      - {label: "Hersteller", name: "categories", widget: "hidden", default: ["getraenk"]}
+      - {label: "Zutaten/Beschreigung", name: "description", widget: "text"}
+      - {label: "Art des Getränks", name: "type", widget: "string", default: "bier"}
+      - {label: "Preis", name: "price", widget: "string"}
+  - name: gallerie
+    label: "Gallerie-Bild" # Used in the UI, ie.: "Neu hinzufügen"
+    folder: "site/content/gallerie" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}

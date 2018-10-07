@@ -2,12 +2,12 @@
 
 <div class="content container {{ .Title }} {{ .Section | urlize }}">
   <h1>{{ .Section }}</h1>
-  {{ if eq .Section "food" }}
+  {{ if eq .Section "essen" }}
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
       <section>
         {{ if eq "categories" $taxonomyname }}
           {{ range $key, $value := $taxonomy }}
-            {{ if ne $key "drinks"}}
+            {{ if ne $key "getraenke"}}
               <h2><em>{{ $key }}</em></h2>
               <hr>
               {{ range $value.Pages.GroupByParam "type" }}
@@ -26,12 +26,12 @@
         {{ end }}
       </section>
     {{ end }}
-  {{ else if eq .Section "drinks" }}
+  {{ else if eq .Section "getraenke" }}
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
       <section>
         {{ if eq "categories" $taxonomyname }}
           {{ range $key, $value := $taxonomy }}
-            {{ if eq $key "drinks"}}
+            {{ if eq $key "getraenke"}}
               {{ range $value.Pages.GroupByParam "type" }}
                 <h2><em>{{ .Key }}</em></h3>
                 <hr>
@@ -49,15 +49,15 @@
         {{ end }}
       </section>
     {{ end }}
-  {{ else if eq .Section "gallery" }}
+  {{ else if eq .Section "gallerie" }}
     <div class="gallery-carousel">
-      {{ range where .Pages "Section" "gallery" }}
+      {{ range where .Pages "Section" "gallerie" }}
         <div><img src="{{ .Params.image }}"/></div>
       {{ end }}
     </div>
     <div class="buttons">
-      <button class="prev half-button">Prev</button>
-      <button class="next half-button">Next</button>
+      <button class="prev half-button">Zurück</button>
+      <button class="next half-button">Weiter</button>
     </div>
   {{ end }}
 </div>
