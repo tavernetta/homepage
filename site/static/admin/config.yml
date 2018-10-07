@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: tavernetta/homepage
+  branch: master
 
 media_folder: "src/img/gallery" # Folder where user uploaded files should go
 public_folder: "img/gallery"
